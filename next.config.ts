@@ -1,7 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  reactStrictMode: true,
+  images: {
+    unoptimized: true, // يسمح بعرض أي صورة من أي مكان
+  },
 };
 
 export default nextConfig;
