@@ -12,7 +12,10 @@ export default function Footer() {
         <div>
           <h3 className="text-lg font-semibold mb-4">معلومات الاتصال</h3>
           <p>السعودية – جدة – شارع الستين</p>
-          <p>+966 55 198 8785</p>
+      <p className="text-yellow-500 font-bold mt-4" dir="ltr">
+  +966 55 198 8785
+</p>
+
           <p>info@decorcities.com</p>
         </div>
 
