@@ -13,7 +13,7 @@ export default function HomePage() {
           <p className="text-gray-700 max-w-3xl mx-auto">
             نحوّل منزلك أو مكتبك إلى لوحة فنية باستخدام أفضل خدمات الدهانات والديكورات في جدة، مع ضمان جودة عالية وتشطيبات فاخرة تضفي لمسة أناقة فريدة.
           </p>
-          <p className="text-yellow-500 font-bold mt-4">0562923342</p>
+          <p className="text-yellow-500 font-bold mt-4">+966 55 198 8785</p>
         </div>
       </section>
 
