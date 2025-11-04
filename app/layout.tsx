@@ -4,6 +4,7 @@ import Header from "@/components/header";
 import Footer from "@/components/Footer";
 import "./globals.css";
 
+
 export const metadata: Metadata = {
   title: "الخليل للديكورات | تصميم وتنفيذ ديكورات",
   description: "الخليل للديكورات متخصصون في التصميم الداخلي وتنفيذ ديكورات حديثة ذات جودة عالية. نقدم خدمات التصميم، التشطيب، وديكورات المنازل والمكاتب.",
@@ -34,6 +35,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="ar" dir="rtl">
+      <head><meta name="google-site-verification" content="W1bySoflIqAzRZAzdCFOUUf9McAAitN_cqFtXoSJnWU" /></head>
       <body>
         <Header />
         <main>{children}</main>
